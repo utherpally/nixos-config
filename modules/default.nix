@@ -21,7 +21,6 @@ builtins.listToAttrs (builtins.map (path: {
   ./home.nix
   ./nix.nix
   ./users
-  ./keyboard-layout/us-de.nix
   
   ./apps
 

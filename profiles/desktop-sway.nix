@@ -1,7 +1,7 @@
 { inputs, ... }: {
   imports = with inputs.self.nixosModules; [
-    ./hardware
+    ./desktop.nix
 
-    inputs.self.nixosProfiles.desktop-sway
+    "workspace.sway"
   ];
 }

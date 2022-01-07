@@ -19,7 +19,7 @@ font pango: Noto Sans 9
 floating_modifier $super
 
 #autostart
-exec --no-startup-id setxkbmap us-de
+# exec --no-startup-id setxkbmap us-de
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 exec --no-startup-id nextcloud &
