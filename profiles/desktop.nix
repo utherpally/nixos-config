@@ -2,6 +2,8 @@
   imports = with inputs.self.nixosModules; [
     ./base.nix
 
+    themes
+
     workspace
     workspace--cursor
     workspace--gtk
