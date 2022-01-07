@@ -1,4 +1,5 @@
-{ pkgs, lib, ... }:
+{ pkgs, config, lib, ... }:
+
 {
   fonts = {
     fontconfig =
