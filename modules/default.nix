@@ -23,6 +23,7 @@ builtins.listToAttrs (builtins.map (path: {
   ./users
   ./themes.nix
 
+  ./apps
   ./apps/dev
   ./apps/dev/git.nix
   ./apps/editor
