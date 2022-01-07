@@ -47,11 +47,11 @@ in {
   };
   programs.xwayland.enable = true;
 
-  users.users.vyorkin.extraGroups = [ "sway" ];
+  users.users.utherpally.extraGroups = [ "sway" ];
 
   environment.loginShellInit = lib.mkAfter ''[[ "$(tty)" == /dev/tty1 ]] && sway'';
 
-  home-manager.users.vyorkin.wayland.windowManager.sway = {
+  home-manager.users.utherpally.wayland.windowManager.sway = {
     enable = true;
     xwayland = true;
 

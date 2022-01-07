@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {
-  home-manager.users.vyorkin = {
+  home-manager.users.utherpally = {
     wayland.windowManager.sway.config.startup = [{ command = "mako"; }];
     programs.mako = {
       enable = true;

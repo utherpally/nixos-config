@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {
-  home-manager.users.vyorkin = {
+  home-manager.users.utherpally = {
     programs.waybar = {
       enable = true;
       systemd.enable = true;

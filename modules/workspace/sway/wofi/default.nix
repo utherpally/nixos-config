@@ -50,7 +50,7 @@ let
     }
   '';
 in {
-  home-manager.users.vyorkin = {
+  home-manager.users.utherpally = {
     xdg.configFile."wofi/style.css".text = wofiTheme;
     xdg.configFile."wofi/config".text =
       lib.generators.toKeyValue { } wofiConfig;
