@@ -66,5 +66,6 @@ builtins.listToAttrs (builtins.map (path: {
   ./workspace/qt.nix
   ./workspace/gnome
   ./workspace/i3
+  ./workspace/sway
   ./workspace
   ])
