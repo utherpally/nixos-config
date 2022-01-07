@@ -7,8 +7,6 @@ let
 
   browser1 = apps.browser.cmd;
   browser2 = "${pkgs.google-chrome}/bin/google-chrome-stable";
-  browser3 = "${pkgs.tor-browser}/bin/tor-browser";
-  browser4 = "${pkgs.qutebrowser}/bin/qutebrowser";
 
   term1 = apps.term.cmd;
   term2 = "${pkgs.kitty}/bin/kitty";
