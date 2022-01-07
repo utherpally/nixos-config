@@ -4,6 +4,6 @@
     ./desktop.nix
     
     x11
-    "workspace.i3"
+    workspace--i3
   ];
 }

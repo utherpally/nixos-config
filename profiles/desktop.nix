@@ -3,25 +3,25 @@
     ./base.nix
 
     workspace
-    "workspace.cursor"
-    "workspace.gtk"
-    "workspace.qt"
+    workspace--cursor
+    workspace--gtk
+    workspace--qt
 
     virtualisation
 
     apps
-    "apps.messaging"
-    "apps.web"
-    "apps.media"
-    "apps.dev"
-    "apps.office"
-    "apps.reading"
+    apps--messaging
+    apps--web
+    apps--media
+    apps--dev
+    apps--office
+    apps--reading
 
-    "apps.editor"
+    apps--editor
     
-    "apps.shell.zsh"
-    "apps.shell.fish"
-    "apps.terminal.alacritty"
-    "apps.terminal.kitty"
+    apps--shell--zsh
+    apps--shell--fish
+    apps--terminal--alacritty
+    apps--terminal--kitty
   ];
 }
