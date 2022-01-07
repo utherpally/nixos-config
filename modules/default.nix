@@ -21,8 +21,7 @@ builtins.listToAttrs (builtins.map (path: {
   ./home.nix
   ./nix.nix
   ./users
-  
-  ./apps
+  ./themes.nix
 
   ./apps/dev
   ./apps/dev/git.nix
