@@ -4,7 +4,7 @@ builtins.listToAttrs (builtins.map (path: {
     cwd = builtins.toString (./. + "/");
     prefix = cwd + "/";
     spath = builtins.toString path;
-    b = builtins.replaceStrings [prefix "./" "/"] ["" "" "."] spath;
+    b = builtins.replaceStrings [prefix "./" "/"] ["" "" "--"] spath;
     m = builtins.match "(.*)\\.nix" b;
   in if isNull m then [ "${b}" ] else m);
   value = import path;

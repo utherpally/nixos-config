@@ -14,10 +14,10 @@
     users
     #"keyboard-layout.us-de"
 
-    "apps.monitoring"
-    "apps.fm"
-    "apps.tools"
+    apps--monitoring
+    apps--fm
+    apps--tools
 
-    "apps.dev.git"
+    apps--dev--git
   ];
 }
